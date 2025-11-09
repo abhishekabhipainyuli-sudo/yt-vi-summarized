@@ -1,0 +1,30 @@
+{
+  "name": "YouTube Video Summarizer",
+  "description": "A Python application that extracts audio from YouTube videos and transcribes them to text using Google Gemini API",
+  "version": "1.0.0",
+  "keywords": [
+    "youtube",
+    "transcription",
+    "audio-to-text",
+    "gemini",
+    "ai",
+    "video-processing"
+  ],
+  "author": "ayush dangwal",
+  "license": "MIT",
+  "api": {
+    "provider": "Google Gemini",
+    "model": "gemini-2.5-flash"
+  },
+  "features": [
+    "YouTube video ID extraction",
+    "Audio download and extraction",
+    "Speech-to-text transcription",
+    "Multiple URL format support"
+  ],
+  "config": {
+    "audio_format": "mp3",
+    "audio_quality": "192",
+    "audio_directory": "audio_files"
+  }
+}
